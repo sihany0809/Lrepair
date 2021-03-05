@@ -1,0 +1,7 @@
+name: Lrepair
+main: Lrepair\Main
+author: Latte
+version: "초보-02"
+api:
+  - 3.0.0
+  - 4.0.0
