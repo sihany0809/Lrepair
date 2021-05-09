@@ -21,7 +21,7 @@ private $config, $cf;
 private $data, $db;
 public function onEnable() {
 $this->getServer()->getPluginManager()->registerEvents($this, $this);
-$this->getServer()->getLogger()->notice("수리 플러그인-made by latte");
+$this->getServer()->getLogger()->notice("수리 플러그인-made by sihun0809");
 @mkdir($this->getDataFolder());
 $this->config = new Config($this->getDataFolder(). "Config.yml", Config::YAML, [
 "lrepair-price" => [],
